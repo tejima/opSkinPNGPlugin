@@ -1,0 +1,18 @@
+◆opSkinPNGPlugin概要
+opSkinBasicPluginの画像をすべてPNG形式に変更。
+
+Adobe FireWorksで後から修正できるように、
+レイヤー情報やグラデーション情報を含んだ画像形式にしていくことを目標としている。
+
+
+◆セットアップ
+/plugins に設置
+./symfony plugin:publish-assets コマンドで webディレクトリにCSS、画像ファイルを公開する。
+
+◆設定
+管理画面から、スキンプラグイン設定でopSkinPNGPluginを選択する。
+
+◆TODO
+GitHubで管理中
+https://github.com/tejima/opSkinPNGPlugin/issues
+
