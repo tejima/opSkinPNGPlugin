@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>opSkinPNGPlugin</name>
+ <channel>plugins.openpne.jp</channel>
+ <summary>FireWorksで編集可能なPNG形式のスキン</summary>
+ <description>FireWorksで編集可能なPNG形式のスキン。レイヤー情報やグラデーション情報をPNGファイル自体に保存している。</description>
+ <lead>
+  <name>手嶋守</name>
+  <user>tejima</user>
+  <email />
+  <active>yes</active>
+ </lead>
+ <date>2011-08-24</date>
+ <time>23:53:33</time>
+ <version>
+  <release>1.0</release>
+  <api>1.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license>Apache</license>
+ <notes>
+最初の安定リリース
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="cb9e3c6ed1f4d95d703aaad579645468" name="apps/pc_frontend/config/view.yml" role="data" />
+   <file baseinstalldir="/" md5sum="07a66ec9bcf2a4a44eb8aee957275acb" name="web/css/main.css" role="data" />
+   <file baseinstalldir="/" md5sum="1b2ad242eaea1443be43d846352b9cc0" name="web/images/articleList_marker.png" role="data" />
+   <file baseinstalldir="/" md5sum="76557813e542a664dfb7a6d6348e789f" name="web/images/bg_button.png" role="data" />
+   <file baseinstalldir="/" md5sum="87858f0ee4ddf7074f72460ed0a8ed4a" name="web/images/bg_button_a.png" role="data" />
+   <file baseinstalldir="/" md5sum="71874a52f43fdc2e4e1d9f834316ebb0" name="web/images/bg_contents.png" role="data" />
+   <file baseinstalldir="/" md5sum="fefbbc826793f022aac3a0f6ab537678" name="web/images/bg_footer.png" role="data" />
+   <file baseinstalldir="/" md5sum="3cfcc6cfa7338075c58eead44ee5e06a" name="web/images/bg_globalnav_hover.png" role="data" />
+   <file baseinstalldir="/" md5sum="2a632f4cc6b5a9edec99da1043623536" name="web/images/bg_header.png" role="data" />
+   <file baseinstalldir="/" md5sum="f9e0221d1376886f2036754c8f7b5813" name="web/images/bg_localnav_community.png" role="data" />
+   <file baseinstalldir="/" md5sum="dfd3cc3a43e53319ea337d38a452ebea" name="web/images/bg_localnav_community_hover.png" role="data" />
+   <file baseinstalldir="/" md5sum="3efa2d0fa765c602f09bfb9b251fc3cf" name="web/images/bg_localnav_default.png" role="data" />
+   <file baseinstalldir="/" md5sum="575a0ddfa4979c84bb4d0c62151dd8bb" name="web/images/bg_localnav_default_hover.png" role="data" />
+   <file baseinstalldir="/" md5sum="49fea00d84f3034d05d3f8ecc767df03" name="web/images/bg_localnav_friend.png" role="data" />
+   <file baseinstalldir="/" md5sum="426c1ec486772dbf390895b2b2d4bcce" name="web/images/bg_localnav_friend_hover.png" role="data" />
+   <file baseinstalldir="/" md5sum="4cf15662b398bf22a7c0ce53bad217b7" name="web/images/bg_parts_heading_175.png" role="data" />
+   <file baseinstalldir="/" md5sum="87ceb3ef29bb6af69a5bfdd7600b9def" name="web/images/bg_parts_heading_270.png" role="data" />
+   <file baseinstalldir="/" md5sum="39e1b7260f35a02acb63a8723a7135e5" name="web/images/bg_parts_heading_440.png" role="data" />
+   <file baseinstalldir="/" md5sum="313f6b4bc8d99061b09ed1032f3d9d9a" name="web/images/bg_parts_heading_540.png" role="data" />
+   <file baseinstalldir="/" md5sum="10b860285ba96b658726fdb758dc8cce" name="web/images/bg_parts_heading_650.png" role="data" />
+   <file baseinstalldir="/" md5sum="745f3a4bca9723fbade2941f9dfaf198" name="web/images/bg_parts_heading_720.png" role="data" />
+   <file baseinstalldir="/" md5sum="f7453e4faa73658c0f6c52f220ddbd1b" name="web/images/bg_parts_photo_box.png" role="data" />
+   <file baseinstalldir="/" md5sum="bb03306f8192d60f0391a2f4131dbb16" name="web/images/icon_1.png" role="data" />
+   <file baseinstalldir="/" md5sum="5737457c8ecaa4a86882fa37f1471ee8" name="web/images/icon_arrow_1.png" role="data" />
+   <file baseinstalldir="/" md5sum="62261af96d1485e70623d8153732455c" name="web/images/icon_arrow_2.png" role="data" />
+   <file baseinstalldir="/" md5sum="4f3ee61abd39653309e74101bafefa46" name="web/images/icon_information.png" role="data" />
+   <file baseinstalldir="/" md5sum="9188562e9cf4234cc04859e17b16d1f3" name="web/images/skin_header_logo.png" role="data" />
+   <file baseinstalldir="/" md5sum="88370ecccc6238051b0a91e9acc3fa56" name="README" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.3</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0</release>
+    <api>1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2011-08-24</date>
+   <license>Apache</license>
+   <notes>
+最初の安定リリース
+   </notes>
+  </release>
+ </changelog>
+</package>
