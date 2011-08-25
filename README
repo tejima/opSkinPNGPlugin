@@ -12,6 +12,11 @@ Adobe FireWorksで後から修正できるように、
 ◆設定
 管理画面から、スキンプラグイン設定でopSkinPNGPluginを選択する。
 
+ロゴ画像は
+images/skin_header_logo.png
+100x80の背景が透明のPNGで作成し、元の画像と置き換える。
+
+
 ◆TODO
 GitHubで管理中
 https://github.com/tejima/opSkinPNGPlugin/issues
