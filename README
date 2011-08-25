@@ -6,7 +6,7 @@ Adobe FireWorksで後から修正できるように、
 
 
 ◆セットアップ
-/plugins に設置
+./symfony opPlugin:install opSkinPNGPlugin
 ./symfony plugin:publish-assets コマンドで webディレクトリにCSS、画像ファイルを公開する。
 
 ◆設定
